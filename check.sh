@@ -1,4 +1,7 @@
 #!/bin/bash
+ROOTPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+cd $ROOTPATH
 
 if test ! -f trackList.txt
 then
